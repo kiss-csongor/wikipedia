@@ -79,7 +79,7 @@ Documentation=https://prometheus.io/docs/introduction/overview/
 After=network.target
 
 [Service]
-ExecStart=/opt/prometheus/prometheus --config.file=/opt/prometheus/prometheus.yml
+ExecStart=/opt/prometheus --config.file=/opt/prometheus.yml
 ExecStop=/bin/kill -TERM $MAINPID
 User=root
 Group=root
