@@ -7,6 +7,7 @@ Prometheus is a powerful open-source monitoring and alerting toolkit that collec
 First, we need to install Prometheus on the VM, which will collect data from the system.
 
 ### 1.1 Update the Ubuntu package manager
+
 Update the package manager to ensure that all available packages are up to date.
 
 ```bash
@@ -58,7 +59,7 @@ scrape_configs:
       - targets: ['localhost:9100']
 ```
 
-> Note: This configuration sets the scrape_interval to 15 seconds and defines a target job named node that scrapes metrics from `localhost:9100`, which is typically the default port for node_exporter (Prometheus node exporter). 
+> Note: This configuration sets the scrape_interval to 15 seconds and defines a target job named node that scrapes metrics from `localhost:9100`, which is typically the default port for node_exporter (Prometheus node exporter).
 
 ### 1.4 Configuring Prometheus systemd service
 
@@ -79,7 +80,7 @@ Documentation=https://prometheus.io/docs/introduction/overview/
 After=network.target
 
 [Service]
-ExecStart=/opt/prometheus --config.file=/opt/prometheus.yml
+ExecStart=/opt/prometheus/prometheus --config.file=/opt/prometheus/prometheus.yml
 ExecStop=/bin/kill -TERM $MAINPID
 User=root
 Group=root
