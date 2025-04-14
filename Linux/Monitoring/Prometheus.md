@@ -56,10 +56,10 @@ global:
 scrape_configs:
   - job_name: 'node'
     static_configs:
-      - targets: ['localhost:9100']
+      - targets: ['<your.domain>:9100']
 ```
 
-> Note: This configuration sets the scrape_interval to 15 seconds and defines a target job named node that scrapes metrics from `localhost:9100`, which is typically the default port for node_exporter (Prometheus node exporter).
+> Note: This configuration sets the scrape_interval to 15 seconds and defines a target job named node that scrapes metrics from `<your.domain>:9100`, which is typically the default port for node_exporter (Prometheus node exporter).
 
 ### 1.4 Configuring Prometheus systemd service
 
