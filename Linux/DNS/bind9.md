@@ -59,7 +59,6 @@ Create the directory to store the zone files:
 
 ```bash
 sudo mkdir /etc/bind/zones
-};
 ```
 
 #### 2.2.1 Forward lookup zone file
@@ -68,7 +67,6 @@ Create and edit the forward lookup zone file:
 
 ```bash
 sudo nano /etc/bind/zones/db.<your.domain>
-};
 ```
 
 Add the following content to the file:
@@ -174,3 +172,31 @@ Check the status of the BIND9 service to ensure it is running correctly.
 ```bash
 sudo systemctl status bind9
 ```
+
+## 6. Optional: Configure Forward Lookup Zone for Windows Active Directory Integration
+
+To ensure that the BIND9 DNS server advertises the Windows Active Directory Domain Controller for `<your.domain>` domain, modify the forward lookup zone file as follows:
+
+### 6.1 Edit the Forward Lookup Zone File
+
+Open the forward lookup zone file for `<your.domain>`:
+
+```bash
+sudo nano /etc/bind/zones/db.<your.domain>
+```
+
+Add the following lines to define the Domain Controller and the necessary SRV records:
+
+```bash
+; Define the Domain Controller
+dc1     IN      A       <dc1.ip.address>
+
+; SRV records for Active Directory
+_ldap._tcp.<your.domain>.  IN  SRV  0 100 389 dc1.<your.domain>.
+_kerberos._tcp.<your.domain>. IN SRV 0 100 88 dc1.<your.domain>.
+_kerberos._udp.<your.domain>. IN SRV 0 100 88 dc1.<your.domain>.
+_kpasswd._tcp.<your.domain>. IN SRV 0 100 464 dc1.<your.domain>.
+_kpasswd._udp.<your.domain>. IN SRV 0 100 464 dc1.<your.domain>.
+```
+
+> Note: Replace `<dc1.ip.address>` with the actual IP address of your Windows Domain Controller and `<your.domain>` with your actual domain name (e.g., `example.com`).
