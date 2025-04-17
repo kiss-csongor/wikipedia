@@ -57,7 +57,7 @@ subnet <your.subnet> netmask <your.netmask> {
     option domain-name "<your.domain>";
 }
 ```
-> Note: Replace `<your.subnet>`, `<your.netmask>`, `<start.ip>`, `<end.ip>`, `<your.gateway>`, `<dns1>`, `<dns2>`, and `<your.domain>` with the appropriate values for your network configuration.
+> **Note:** Replace `<your.subnet>`, `<your.netmask>`, `<start.ip>`, `<end.ip>`, `<your.gateway>`, `<dns1>`, `<dns2>`, and `<your.domain>` with the appropriate values for your network configuration.
 
 ### 1.4 Configuring the DHCP server interface
 
@@ -75,7 +75,7 @@ sudo nano /etc/default/isc-dhcp-server
 INTERFACESv4="<your.interface>"
 ```
 
->Note: Replace `<your.interface>` with the network interface you want the DHCP server to listen on. This is typically the interface connected to the network where DHCP clients are located.
+> **Note:** Replace `<your.interface>` with the network interface you want the DHCP server to listen on. This is typically the interface connected to the network where DHCP clients are located.
 
 ### 1.5 Start the ISC-DHCP-Server service
 

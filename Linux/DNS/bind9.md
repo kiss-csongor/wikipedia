@@ -51,7 +51,7 @@ zone "<your.reverse.zone>" {
 };
 ```
 
-> Note: Replace `<your.domain>` with your actual domain name (e.g., `example.com`) and `<your.reverse.zone>` with your reverse lookup zone (e.g., `1.168.192.in-addr.arpa` for the `192.168.1.0/24` subnet).
+> **Note:** Replace `<your.domain>` with your actual domain name (e.g., `example.com`) and `<your.reverse.zone>` with your reverse lookup zone (e.g., `1.168.192.in-addr.arpa` for the `192.168.1.0/24` subnet).
 
 ### 2.2 Create the zone files
 
@@ -89,7 +89,7 @@ ns2     IN      A       <ns2.ip.address>
 www     IN      A       <www.ip.address>
 ```
 
-> Note: Replace `<your.domain>`, `<ns1.ip.address>`, `<ns2.ip.address>`, and `<www.ip.address>` with your actual domain name and IP addresses.
+> **Note:** Replace `<your.domain>`, `<ns1.ip.address>`, `<ns2.ip.address>`, and `<www.ip.address>` with your actual domain name and IP addresses.
 
 #### 2.2.2 Reverse lookup zone file
 
@@ -116,7 +116,7 @@ $TTL    604800
 <last.octet>    IN      PTR     <hostname>.<your.domain>.
 ```
 
-> Note: Replace `<your.domain>`, `<last.octet>`, and `<hostname>` with your actual domain name, the last octet of the IP address, and the hostname.
+> **Note:** Replace `<your.domain>`, `<last.octet>`, and `<hostname>` with your actual domain name, the last octet of the IP address, and the hostname.
 
 ## 3. Configuring the named.conf.options file
 
@@ -154,7 +154,7 @@ options {
 };
 ```
 
-> Note: Replace `<your.interface.ip>` with the IP address of the network interface you want the DNS server to listen on, and `<your.network>` with your local network range (e.g., `192.168.1.0/24`).
+> **Note:** Replace `<your.interface.ip>` with the IP address of the network interface you want the DNS server to listen on, and `<your.network>` with your local network range (e.g., `192.168.1.0/24`).
 
 ## 4. Start and Enable the BIND9 service
 
@@ -199,4 +199,4 @@ _kpasswd._tcp.<your.domain>. IN SRV 0 100 464 dc1.<your.domain>.
 _kpasswd._udp.<your.domain>. IN SRV 0 100 464 dc1.<your.domain>.
 ```
 
-> Note: Replace `<dc1.ip.address>` with the actual IP address of your Windows Domain Controller and `<your.domain>` with your actual domain name (e.g., `example.com`).
+> **Note:** Replace `<dc1.ip.address>` with the actual IP address of your Windows Domain Controller and `<your.domain>` with your actual domain name (e.g., `example.com`).
