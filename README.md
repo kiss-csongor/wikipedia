@@ -5,10 +5,13 @@ This repository is a structured, educational collection of IT-related content, w
 ## Current Topics
 
 - **Linux**
-  - DHCP – Dynamic IP address assignment
-  - DNS – Domain Name System configuration and usage
-  - Monitoring – Tools and practices for network/system observation
-  - VPN – Setting up and understanding virtual private networks
+  - [DHCP](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/DHCP) – Dynamic IP address assignment
+  - [DNS](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/DNS) – Domain Name System configuration and usage
+  - [Monitoring](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Monitoring) – Tools and practices for network/system observation
+  - [VPN](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/VPN) – Setting up and understanding virtual private networks
+  - [Web Server](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Web-Server) – Basics of web hosting and server configuration (e.g., Apache, Nginx)ű
+  - [File Sharing](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/File-Sharing) – Network-based file sharing solutions (e.g., Samba, NFS)
+  - [Development & Documentation](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Development-And-Documentation) – Tools and workflows to support sysadmin tasks and documentation best practices
 
 ## Purpose
 
@@ -16,7 +19,7 @@ The aim is to provide concise, wiki-style documentation that helps students, jun
 
 ## Future Expansion
 
-As the project grows, expect new categories covering Windows, cloud technologies, cybersecurity, DevOps, and more.
+As the project grows, expect new categories covering Windows, cloud technologies, cybersecurity, DevOps, IP networking, and more.
 
 ---
 
