@@ -9,6 +9,9 @@ This repository is a structured, educational collection of IT-related content, w
   - DNS – Domain Name System configuration and usage
   - Monitoring – Tools and practices for network/system observation
   - VPN – Setting up and understanding virtual private networks
+  - Web Server – Basics of web hosting and server configuration (e.g., Apache, Nginx)ű
+  - File Sharing – Network-based file sharing solutions (e.g., Samba, NFS)
+  - Development & Documentation – Tools and workflows to support sysadmin tasks and documentation best practices
 
 ## Purpose
 
@@ -16,7 +19,7 @@ The aim is to provide concise, wiki-style documentation that helps students, jun
 
 ## Future Expansion
 
-As the project grows, expect new categories covering Windows, cloud technologies, cybersecurity, DevOps, and more.
+As the project grows, expect new categories covering Windows, cloud technologies, cybersecurity, DevOps, IP networking, and more.
 
 ---
 
