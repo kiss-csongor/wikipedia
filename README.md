@@ -4,7 +4,7 @@ This repository is a structured, educational collection of IT-related content, w
 
 ## Current Topics
 
-- **Linux**
+- **[Linux]**(https://github.com/kiss-csongor/wikipedia/tree/main/Linux)
   - [DHCP](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/DHCP) – Dynamic IP address assignment
   - [DNS](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/DNS) – Domain Name System configuration and usage
   - [Monitoring](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Monitoring) – Tools and practices for network/system observation
