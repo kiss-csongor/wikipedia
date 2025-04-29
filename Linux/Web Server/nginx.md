@@ -200,14 +200,70 @@ Follow the on-screen instructions to complete the process.
 
 > **Note:** Replace `your_domain` with your actual domain name (e.g.,` example.com`).
 
-## 9. Verify SSL Configuration
+### 8.3. Verify SSL Configuration
 
 After obtaining the SSL certificate, Certbot will automatically configure NGINX to use SSL. You can verify the configuration by accessing your website using `https://your_domain`.
 
-## 10. Renew SSL Certificates Automatically
+### 8.4. Renew SSL Certificates Automatically
 
 Certbot sets up automatic renewal of SSL certificates. You can test the renewal process with the following command:
 
 ```bash
 sudo certbot renew --dry-run
+```
+
+> **Important**: For certificate renewal to succeed, **port 80 (HTTP)** must be open and accessible from the internet, as Let's Encrypt uses this port to verify domain ownership. Ensure that your firewall (e.g., UFW, security group, or cloud provider firewall) allows incoming traffic on **port 80**.
+
+## 9. Optional: NGINX Configuration After Enabling HTTPS
+
+After obtaining an SSL certificate with Certbot, NGINX is automatically reconfigured to support HTTPS. Below is a typical resulting setup with automatic redirection from **HTTP (port 80)** to **HTTPS (port 443)** and a secure server block.
+
+### 9.1 Redirect HTTP (Port 80) to HTTPS (Port 443)
+
+Add a server block that listens on port 80 and redirects all requests to HTTPS:
+
+```bash
+server {
+    listen 80;
+    server_name your_domain www.your_domain;
+
+    return 301 https://$host$request_uri;
+}
+```
+
+### 9.2 Configure the HTTPS Server Block
+
+Create or modify your existing server block to listen on port 443 and use the SSL certificates:
+
+```bash
+server {
+    listen 443 ssl;
+    server_name your_domain www.your_domain;
+
+    ssl_certificate /etc/letsencrypt/live/your_domain/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/your_domain/privkey.pem;
+
+    root /var/www/your_domain;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    error_page 404 /404.html;
+    location = /404.html {
+        internal;
+    }
+}
+```
+
+> **Note**: Replace `your_domain` with your actual domain name (e.g., `example.com`). Make sure the certificate paths match the ones provided by Certbot.
+
+### 9.3 Restart NGINX
+
+After updating the configuration files, restart NGINX to apply the changes:
+
+```bash
+sudo nginx -t
+sudo systemctl reload nginx
 ```
