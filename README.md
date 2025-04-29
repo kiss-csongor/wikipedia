@@ -11,7 +11,7 @@ This repository is a structured, educational collection of IT-related content, w
   - [VPN](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/VPN) – Setting up and understanding virtual private networks
   - [Web Server](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Web-Server) – Basics of web hosting and server configuration (e.g., Apache, Nginx)ű
   - [File Sharing](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/File-Sharing) – Network-based file sharing solutions (e.g., Samba, NFS)
-  - [Development & Documentation](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Development-And-Documentation) – Tools and workflows to support sysadmin tasks and documentation best practices
+  - [Development & Documentation](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Development-&-Documentation) – Tools and workflows to support sysadmin tasks and documentation best practices
 
 ## Purpose
 
