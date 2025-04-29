@@ -1,4 +1,4 @@
-# Wikipedia-Style IT Knowledge Repository
+# IT Knowledge Wikipedia-Style Repository
 
 This repository is a structured, educational collection of IT-related content, written in a clear, accessible format. While it currently focuses on Linux networking topics, the goal is to gradually expand into other areas of system administration, infrastructure, and computer networking.
 
