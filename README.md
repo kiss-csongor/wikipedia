@@ -17,9 +17,9 @@ This repository is a structured, educational collection of IT-related content, w
    -  [Basic](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic) – Core concepts of IP networking, including addressing, subnetting, and foundational protocols
    -  [Switch](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Switch) – Configuration and management of network switches for efficient data forwarding and network segmentation
    -  [Router](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router) – Setting up and maintaining routers to enable inter-network communication and proper traffic routing
-     -  [IPv4 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv4-Static-Routing) – A guide on configuring static IPv4 routes to define fixed paths between networks, improving network efficiency and security.
-     -  [IPv6 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv6-Static-Routing) – Instructions for setting up static IPv6 routes, allowing network traffic to flow correctly between IPv6-enabled devices.
-     -  [RIP Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/RIP-Routing) – Configuration of RIP (Routing Information Protocol), focusing on RIP v2, including setting up dynamic routing for simpler networks.
+     --  [IPv4 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv4-Static-Routing) – A guide on configuring static IPv4 routes to define fixed paths between networks, improving network efficiency and security.
+     --  [IPv6 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv6-Static-Routing) – Instructions for setting up static IPv6 routes, allowing network traffic to flow correctly between IPv6-enabled devices.
+     --  [RIP Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/RIP-Routing) – Configuration of RIP (Routing Information Protocol), focusing on RIP v2, including setting up dynamic routing for simpler networks.
 
 ## Purpose
 
