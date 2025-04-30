@@ -14,11 +14,11 @@ This repository is a structured, educational collection of IT-related content, w
   - [Development & Documentation](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Development-&-Documentation) – Tools and workflows to support sysadmin tasks and documentation best practices
 
  - **[IP Networking](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking)**
-   - [Basic](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic) – Core concepts of IP networking, including addressing, subnetting, and foundational protocols
+   - [Basic](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic)
      - [IPv4 Adressing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic/IPv4-Adressing) – Configuration and management of IPv4 addresses for proper network design and communication.
      - [IPv6 Adressing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic/IPv6-Adressing) – Configuring IPv6 addressing, considering the expanded address space and its use in modern networks.
-   - [Switch](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Switch) – Configuration and management of network switches for efficient data forwarding and network segmentation
-   - [Router](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router) – Setting up and maintaining routers to enable inter-network communication and proper traffic routing
+   - [Switch](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Switch)
+   - [Router](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router)
      - [IPv4 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv4-Static-Routing) – A guide on configuring static IPv4 routes to define fixed paths between networks, improving network efficiency and security.
      - [IPv6 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv6-Static-Routing) – Instructions for setting up static IPv6 routes, allowing network traffic to flow correctly between IPv6-enabled devices.
      - [RIP Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/RIP-Routing) – Configuration of RIP (Routing Information Protocol), focusing on RIP v2, including setting up dynamic routing for simpler networks.
