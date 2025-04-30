@@ -5,23 +5,23 @@ This repository is a structured, educational collection of IT-related content, w
 ## Current Topics
 
 - **[Linux](https://github.com/kiss-csongor/wikipedia/tree/main/Linux)**
-  - [DHCP](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/DHCP) – Dynamic IP address assignment
-  - [DNS](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/DNS) – Domain Name System configuration and usage
-  - [Monitoring](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Monitoring) – Tools and practices for network/system observation
-  - [VPN](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/VPN) – Setting up and understanding virtual private networks
-  - [Web Server](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Web-Server) – Basics of web hosting and server configuration (e.g., Apache, Nginx)
-  - [File Sharing](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/File-Sharing) – Network-based file sharing solutions (e.g., Samba, NFS)
-  - [Development & Documentation](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Development-&-Documentation) – Tools and workflows to support sysadmin tasks and documentation best practices
+  - [DHCP](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/DHCP)
+  - [DNS](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/DNS)
+  - [Monitoring](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Monitoring)
+  - [VPN](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/VPN)
+  - [Web Server](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Web-Server)
+  - [File Sharing](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/File-Sharing)
+  - [Development & Documentation](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Development-&-Documentation)
 
  - **[IP Networking](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking)**
    - [Basic](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic)
-     - [IPv4 Adressing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic/IPv4-Adressing) – Configuration and management of IPv4 addresses for proper network design and communication.
-     - [IPv6 Adressing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic/IPv6-Adressing) – Configuring IPv6 addressing, considering the expanded address space and its use in modern networks.
+     - [IPv4 Adressing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic/IPv4-Adressing)
+     - [IPv6 Adressing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic/IPv6-Adressing)
    - [Switch](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Switch)
    - [Router](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router)
-     - [IPv4 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv4-Static-Routing) – A guide on configuring static IPv4 routes to define fixed paths between networks, improving network efficiency and security.
-     - [IPv6 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv6-Static-Routing) – Instructions for setting up static IPv6 routes, allowing network traffic to flow correctly between IPv6-enabled devices.
-     - [RIP Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/RIP-Routing) – Configuration of RIP (Routing Information Protocol), focusing on RIP v2, including setting up dynamic routing for simpler networks.
+     - [IPv4 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv4-Static-Routing)
+     - [IPv6 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv6-Static-Routing)
+     - [RIP Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/RIP-Routing)
 
 ## Purpose
 
