@@ -23,6 +23,11 @@ This repository is a structured, educational collection of IT-related content, w
      - [IPv4 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv4-Static-Routing)
      - [IPv6 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv6-Static-Routing)
      - [RIP Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/RIP-Routing)
+   - [Switch](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Switch)
+     - [L2 Redundancy](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Switch/L2-Redundancy)
+        - [RSTP](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Switch/L2-Redundancy/RSTP)
+        - [LACP](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Switch/L2-Redundancy/LACP)
+     - [VLANs](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Switch/VLANs)
 
 ## Purpose
 
