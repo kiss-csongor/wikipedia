@@ -16,8 +16,8 @@ This repository is a structured, educational collection of IT-related content, w
 
  - **[Networking](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking)**
    - [Basic](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic)
-     - [IPv4 Adressing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic/IPv4-Adressing)
-     - [IPv6 Adressing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic/IPv6-Adressing)
+     - [IPv4 Addressing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic/IPv4-Addressing)
+     - [IPv6 Addressing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic/IPv6-Addressing)
    - [Switch](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Switch)
    - [Router](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router)
      - [IPv4 Static Routing](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Router/IPv4-Static-Routing)
