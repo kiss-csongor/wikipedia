@@ -13,6 +13,7 @@ This repository is a structured, educational collection of IT-related content, w
   - [File Sharing](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/File-Sharing)
   - [Development & Documentation](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Development-&-Documentation)
   - [Database](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Database)
+  - [Containerization](https://github.com/kiss-csongor/wikipedia/tree/main/Linux/Containerization)
 
  - **[Networking](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking)**
    - [Basic](https://github.com/kiss-csongor/wikipedia/tree/main/IP-Networking/Basic)
